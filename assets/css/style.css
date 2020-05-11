@@ -3,6 +3,7 @@ html {
 }
 body {
     margin: 0;
+    overflow-x: hidden;
 }
 
 /* Navbar */
@@ -12,6 +13,22 @@ body {
     top: 0;
     z-index: 12;
     height: 60px;
+}
+.navbar .nav-link {
+    color: white;
+    transition:all 300ms ease-in-out;
+    -webkit-transition:all 300ms ease-in-out;
+   -moz-transition:all 300ms ease-in-out;
+   -o-transition:all 300ms ease-in-out;
+   -ms-transition:all 300ms ease-in-out;   
+}
+.navbar .nav-link:hover {
+    color: rgb(197, 197, 197);
+    transition:all 300ms ease-in-out;
+    -webkit-transition:all 300ms ease-in-out;
+   -moz-transition:all 300ms ease-in-out;
+   -o-transition:all 300ms ease-in-out;
+   -ms-transition:all 300ms ease-in-out;
 }
 /* Akhir Navbar */
 
@@ -34,7 +51,7 @@ body {
 .container-display {
     text-align: right;
     position: absolute;
-    z-index: 5;
+    z-index: 7;
     right: 90px;
     top: 90px;
     width: 520px;
@@ -250,6 +267,19 @@ a.statistic-button {
     color: white;
     text-decoration: none;
     margin-bottom: 5px;
+    transition:all 300ms ease-in-out;
+    -webkit-transition:all 300ms ease-in-out;
+   -moz-transition:all 300ms ease-in-out;
+   -o-transition:all 300ms ease-in-out;
+   -ms-transition:all 300ms ease-in-out;
+}
+.footer a:hover {
+    color: rgb(197, 197, 197);
+    transition:all 300ms ease-in-out;
+    -webkit-transition:all 300ms ease-in-out;
+   -moz-transition:all 300ms ease-in-out;
+   -o-transition:all 300ms ease-in-out;
+   -ms-transition:all 300ms ease-in-out;
 }
 .footer button {
     display: block;
@@ -302,6 +332,21 @@ a.statistic-button {
 h2.title-page {
     font-weight: lighter;
     font-size: 29px;
+}
+.modal .faq {
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgb(59, 59, 59);
+}
+.modal .faq .pertanyaan {
+    font-weight: bold;
+    font-size: 14px;
+}
+.modal .faq .pertanyaan-next {
+    padding-top: 10px;
+}
+.modal .faq .jawaban {
+    font-size: 14px;
+    color: rgb(59, 59, 59);
 }
 /* Akhir Utilities */
 
