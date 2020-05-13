@@ -128,6 +128,9 @@
     .jumbotron {
         background-size: cover;
     }
+    .overlay-rs {
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(48, 5, 28, 0.8));
+    }
     .container-display {
         right: 0;
         top: 20%;
@@ -154,6 +157,7 @@
     .icon-btn-down a {
         font-size: 40px;
         margin-bottom: 10px;
+        color: white;
     }
     /* Akhir Jumbotron */
 
@@ -205,6 +209,12 @@
         font-weight: bold;
     }
     /* Akhir Rumah Sakit */
+
+    /* Emergency Hospital */
+    .rs {
+        height: 140vh;
+    }
+    /* Akhir Emergency Hospital */
 
     /* Utilities */
     .bg-putih, .bg-hitam, .bg-opa-zero {

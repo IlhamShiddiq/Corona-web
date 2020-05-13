@@ -40,6 +40,10 @@ body {
     position: relative;
     background-attachment: fixed;
 }
+.jumbotron-rs {
+    background-image: url('../image/hospital.jpg');
+    background-size: cover;
+}
 .overlay {
     position: absolute;
     width: 100%;
@@ -48,10 +52,13 @@ body {
     right: 0;
     background-image: linear-gradient(to right, rgba(255, 0, 0, 0), rgba(124, 0, 68, 0.6));
 }
+.overlay-rs {
+    background-image: linear-gradient(to right, rgba(255, 0, 0, 0), rgba(48, 5, 28, 0.8) 70%);
+}
 .container-display {
     text-align: right;
     position: absolute;
-    z-index: 7;
+    z-index: 9;
     right: 90px;
     top: 90px;
     width: 520px;
@@ -72,6 +79,11 @@ body {
     border-radius: 0;
     padding: 7px 20px;
 }
+.container-display a.btn-prov {
+    border-radius: 0;
+    padding: 7px 10px;
+    margin-left: 10px;
+}
 .container-display a:hover, .container-display a:focus, .container-display a:active  {
     background-color: rgba(124, 0, 68, 0.4);
     color: white;
@@ -80,7 +92,7 @@ body {
     position: absolute;
     width: 100%;
     bottom: 10px;
-    z-index: 6;
+    z-index: 9;
     left: 0;
     text-align: center;
 }
@@ -91,6 +103,9 @@ body {
     animation: btn-down-released .4s forwards;
     cursor: pointer;
 }
+.icon-btn-down-rs {
+    padding-bottom: 40px;
+}
 .icon-btn-down:hover {
     animation: btn-down .4s forwards;
 }
@@ -98,6 +113,9 @@ body {
     font-size: 45px;
     text-decoration: none;
     color: black;
+}
+.icon-btn-down-rs a {
+    color: white;
 }
 /* Akhir Jumbotron */
 
@@ -242,9 +260,46 @@ a.statistic-button {
     height: 60px;
     border-radius: 100px;
     font-size: 28px;
-    z-index: 5;
+    z-index: 7;
 }
 /* Akhir Floating Statistic Button */
+
+/* Emergency Hospital */
+.container-rs {
+    padding: 0 50px;
+}
+.rs-list {
+    width: 100vh;
+    height: 400px;
+    overflow: auto;
+    padding: 20px;
+}
+.gambar-dokter img {
+    margin-top: 60px;
+    width: 300px;
+    cursor: pointer;
+    transition:all 300ms ease-in-out;
+    -webkit-transition:all 300ms ease-in-out;
+   -moz-transition:all 300ms ease-in-out;
+   -o-transition:all 300ms ease-in-out;
+   -ms-transition:all 300ms ease-in-out;
+}
+.gambar-dokter img:hover {
+    margin-top: 50px;
+    width: 330px;
+    transition:all 300ms ease-in-out;
+    -webkit-transition:all 300ms ease-in-out;
+   -moz-transition:all 300ms ease-in-out;
+   -o-transition:all 300ms ease-in-out;
+   -ms-transition:all 300ms ease-in-out;
+}
+.rs h5 {
+    text-transform: uppercase;
+}
+.rs h6 {
+    color: rgb(110, 110, 110);
+}
+/* Akhir Emergency Hospital */
 
 /* Footer */
 .footer {
@@ -317,7 +372,7 @@ a.statistic-button {
     width: 100%;
 }
 .svg-z-index-6 {
-    z-index: 6;
+    z-index: 8;
 }
 .page {
     width: 100%;
