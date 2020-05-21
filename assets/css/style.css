@@ -44,6 +44,10 @@ body {
     background-image: url('../image/hospital.jpg');
     background-size: cover;
 }
+.jumbotron-statistik {
+    background-image: url('../image/statistic.jpg');
+    background-size: cover;
+}
 .overlay {
     position: absolute;
     width: 100%;
@@ -54,6 +58,9 @@ body {
 }
 .overlay-rs {
     background-image: linear-gradient(to right, rgba(255, 0, 0, 0), rgba(48, 5, 28, 0.8) 70%);
+}
+.overlay-statistik {
+    background-image: linear-gradient(to right, rgba(255, 0, 0, 0), rgba(48, 3, 27, 0.8) 70%);
 }
 .container-display {
     text-align: right;
@@ -133,10 +140,12 @@ body {
     color: white;
     padding: 5px;
     width: 200px;
+    border: 2px solid rgb(0, 0, 0);
+    font-weight: bold;
 }
 .penjelasan .btn-more:hover {
-    background-color: rgb(71, 71, 71);
-    border: 1px solid rgb(71, 71, 71);
+    background-color: rgb(255, 255, 255);
+    color: black;
 }
 .black-area svg {
     height: 150%;
@@ -248,6 +257,14 @@ h4.provinsi {
 }
 .button-more-rs a {
     width: 50%;
+}
+.btn-info {
+    border-radius: 0;
+    color: white;
+}
+.btn-info:hover {
+    background-color: #fff;
+    color: rgb(7, 110, 105) !important;
 }
 /* Akhir Rumah Sakit */
 
