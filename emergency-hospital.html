@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/responsive.css">
     <link rel="stylesheet" href="assets/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/aos.css">
 
     <link rel="icon" type="image/png" href="assets/image/icon.png">
 
@@ -46,10 +47,10 @@
     <div class="page rs" id="rs">
       <div class="container container-rs">
         <div class="row">
-          <div class="col-lg-7 col-sm-10 text-center">
+          <div class="col-lg-7 col-sm-12 text-center" data-aos="fade-up" data-aos-duration="1000">
             <h2 class="title-page text-center mt-4 mb-5">Rumah Sakit Darurat Covid-19</h2>
           </div>
-          <div class="col-lg-7 col-sm-10 rs-list">
+          <div class="col-lg-7 col-sm-12 rs-list">
             <div class="daerah" id="sumatera-utara">
               <h5>sumatera utara</h5>
               <ol type="1">
@@ -76,7 +77,7 @@
               </ol>
             </div>
           </div>
-          <div class="col-lg-5 gambar-dokter">
+          <div class="col-lg-5 col-sm-12 gambar-dokter">
             <div class="dokter text-center">
               <img src="assets/image/doctors.png">
             </div>
@@ -133,5 +134,10 @@
 
     <!-- More JS -->
     <script src="assets/js/all.min.js"></script>
+    <script src="assets/js/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+
   </body>
 </html>
